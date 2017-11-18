@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Student Logger - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\02LSHE~1\LOCALS~1\Temp\RSP122.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Student Logger.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Student Logger\Student Logger.cpp"
+"D:\Student Logger\Student LoggerDlg.cpp"
+"D:\Student Logger\Student.cpp"
+"D:\Student Logger\SummaryDialog.cpp"
+"D:\Student Logger\TotalTime.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\02LSHE~1\LOCALS~1\Temp\RSP122.tmp" 
+Creating temporary file "C:\DOCUME~1\02LSHE~1\LOCALS~1\Temp\RSP123.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Student Logger.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Student Logger\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\02LSHE~1\LOCALS~1\Temp\RSP123.tmp" 
+Creating temporary file "C:\DOCUME~1\02LSHE~1\LOCALS~1\Temp\RSP124.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Student Logger.pdb" /debug /machine:I386 /out:"Debug/Student Logger.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\Student Logger.obj"
+".\Debug\Student LoggerDlg.obj"
+".\Debug\Student.obj"
+".\Debug\SummaryDialog.obj"
+".\Debug\TotalTime.obj"
+".\Debug\Student Logger.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\02LSHE~1\LOCALS~1\Temp\RSP124.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Student Logger.cpp
+Student LoggerDlg.cpp
+Student.cpp
+SummaryDialog.cpp
+TotalTime.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Student Logger.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
